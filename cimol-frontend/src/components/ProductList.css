@@ -1,0 +1,184 @@
+/* ===== WRAPPER ===== */
+.product-wrapper {
+    padding: 20px;
+    background: #0d1224;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #0d4fff44;
+}
+
+/* ===== USER BOX ===== */
+.user-box {
+    border: 1px solid #00ff9d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #0d172b;
+    color: #c8ffe3;
+    box-shadow: 0 0 10px #00ff9d33;
+}
+
+/* ===== BUTTON NEON ===== */
+.btn-neon {
+    background: #111a33;
+    padding: 10px 18px;
+    color: #00eaff;
+    border: 1px solid #00eaff;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-shadow: 0 0 5px #00eaff;
+}
+
+.btn-neon:hover {
+    background: #00eaff;
+    color: #0d1224;
+    box-shadow: 0 0 15px #00eaff, 0 0 25px #00eaff;
+}
+
+/* Tambah Produk Button */
+.btn-add {
+    background: #00ff9d;
+    border-color: #00ff9d;
+    color: #001a12;
+    text-shadow: none;
+}
+
+.btn-add:hover {
+    box-shadow: 0 0 15px #00ff9d;
+}
+
+/* Edit */
+.btn-edit {
+    background: #0099ff;
+    border-color: #0099ff;
+}
+
+.btn-edit:hover {
+    box-shadow: 0 0 15px #0099ff;
+}
+
+/* Delete */
+.btn-delete {
+    background: #ff4d4d;
+    border-color: #ff4d4d;
+}
+
+.btn-delete:hover {
+    box-shadow: 0 0 15px #ff4d4d;
+}
+
+/* Logout button */
+.btn-logout {
+    float: right;
+    background: #d62828;
+    color: white;
+    border-color: #ff4d4d;
+}
+
+.btn-logout:hover {
+    background: #ff4d4d;
+    color: black;
+    box-shadow: 0 0 20px #ff4d4d;
+}
+
+/* ===== TABLE ===== */
+.neon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #e0e8ff;
+}
+
+.neon-table th {
+    padding: 12px;
+    background: #131c35;
+    border: 1px solid #1f2b45;
+    text-align: left;
+    font-weight: bold;
+    color: #00eaff;
+    text-shadow: 0 0 5px #00eaff;
+}
+
+.neon-table td {
+    padding: 10px;
+    border: 1px solid #1f2b45;
+    background: #0d172b;
+}
+
+/* Hover row */
+.neon-table tr:hover td {
+    border-color: #00eaff;
+    box-shadow: inset 0 0 10px #00eaff55;
+}
+
+/* ===== MODAL OVERLAY ===== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* ===== MODAL CONTENT ===== */
+.modal-content {
+    background: #0d172b;
+    padding: 25px;
+    border-radius: 10px;
+    min-width: 350px;
+    max-width: 90%;
+    max-height: 90vh;
+    overflow: auto;
+    box-shadow: 0 0 20px #00eaff55;
+    border: 1px solid #1a2a44;
+    position: relative;
+    color: #e0e8ff;
+}
+
+/* Modal Close Button */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 26px;
+    border: none;
+    background: none;
+    color: #00eaff;
+    cursor: pointer;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+/* ===== INPUTS ===== */
+.neon-input,
+.neon-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background: #0a1222;
+    border: 1px solid #00eaff;
+    border-radius: 8px;
+    color: #e0e8ff;
+    outline: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.neon-input:focus,
+.neon-textarea:focus {
+    border-color: #00ffea;
+    box-shadow: 0 0 10px #00eaff;
+}
+
+/* Label */
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: #00eaff;
+}
