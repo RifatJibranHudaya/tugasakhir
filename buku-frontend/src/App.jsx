@@ -58,7 +58,7 @@ function App() {
                     <button onClick={handleLogout} className="btn-logout">Logout</button>
                 </nav>
 
-                <h1 className="title">Sistem Penjualan Cimol Stick Kentang</h1>
+                <h1 className="title">Sistem Penjualan Buku</h1>
                 <p>Selamat Datang, <b>{user?.name}</b></p>
 
                 {/* ---------------- ROUTES HALAMAN ---------------- */}
